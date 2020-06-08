@@ -57,7 +57,7 @@ current = Time.now
 date1 = Date.parse(expiration_date)
 date2 = Date.parse(current.strftime('%Y-%m-%d'))
 
-dedline_days = ((date1 - date2).to_f + 5)
+dedline_days = ((date1 - date2).to_f + 1)
 
 # puts "prueba de api document_rate:  #{document_rate} | commission: #{commission} |  advance_percent: #{advance_percent}"
 # puts "dias de plazo : #{dedline_days}"
